@@ -1,0 +1,18 @@
+function mostrarMensagem () {
+  console.log("bom dia mundo")
+}
+
+mostrarMensagem()
+
+function calculaCubo (num){
+  return num*num*num
+}
+console.log("calculando os lados do cubo o resultado é "+calculaCubo(6))
+
+function areaTriangulo(b,a){
+  var area = (b * a)/2
+  return area
+}
+var base = 7
+var altura = 11
+console.log("a area do triangulo é " + areaTriangulo(base,altura))
