@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>exemplo</h1>
+    <label for="name"></label>
+    <input type="text" id="nome" placeholder="seu nome">
+    <button onclick="msg()">clique aqui</button>
+    <p id="par"></p>
+    <script>
+        var parag = document.getElementById('par')
+            function msg() {
+                var nome = document.getElementById("nome").value
+                parag.innerHTML = "oi " + nome + " seja bem vindo"
+            }
+    </script>
+</body>
+
+</html>
