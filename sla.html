@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>exemplo</h1>
+
+    <label for="nome">seu nome:</label>
+    <input type="text" id="nome" placeholder="Seu nome">
+    <button id="meuBotao">Clique-me!</button>
+
+    <p id="minhaMensagem"></p>
+
+    <script>
+        // JavaScript
+        document.getElementById("meuBotao").addEventListener("click",
+        function () {
+            var nome = document.getElementById("nome").value;
+            if (nome) {
+                document.getElementById("minhaMensagem").innerHTML = "opa " + nome + "seja bem vindo";
+            } else {
+                document.getElementById("minhaMensagem").innerHTML = "seu nome";
+            }
+        });
+       
+        document.getElementById("meuBotao").addEventListener("click",
+        function () {
+            document.getElementById("minhaMensagem").innerHTML = "oi";
+        }
+        );
+    </script>
+</body>
+
+</html>
