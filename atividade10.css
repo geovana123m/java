@@ -1,0 +1,29 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 20px;
+    background-color: rgb(182, 211, 185);
+}
+
+h1 {
+    color: #ffffff;
+}
+
+p {
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+input[type="number"] {
+    padding: 5px;
+    font-size: 18px;
+}
+
+button {
+    background-color: #65ad65;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+}
