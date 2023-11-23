@@ -2,6 +2,7 @@ body{
     font-family: initial;
     text-align: center;
     margin: 20px;
+    background-color: rgb(5, 56, 56);
 }
 
 h1{
@@ -20,4 +21,8 @@ button{
 p{
     font-size: 20px;
     margin-top: 20px;
+}
+
+img{
+    width: 30vw;
 }
