@@ -1,0 +1,16 @@
+ul{
+    list-style-type: none;
+}
+
+body{
+    background-color: rgb(231, 167, 217);
+}
+
+button{
+    background-color: rgb(174, 207, 155);
+    color: white;
+}
+
+h1{
+    color: white;
+}
